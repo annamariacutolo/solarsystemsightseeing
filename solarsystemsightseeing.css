@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.content {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+@font-face {
+  font-family: spacegalaxy;
+  src: url(Space_Galaxy.ttf);
+}
+.title {
+  font-family: spacegalaxy;
+  font-size: 90px;
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+  color: white;
+  background-color: #1c1657;
+}
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: right;
+}
+.nav li {
+  display: inline-block;
+  padding: 15px 15px;
+}
+.nav li:hover {
+  background-color: #4e44a7;
+}
+
+.container {
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  max-width: 100vmax;
+}
+
+.container img {
+  display: center;
+  width: 100%;
+  height: auto;
+}
+
+.container .imgbutton {
+  position: absolute;
+  top: 90%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 12px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+.parent {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+/* flexbox for the cards*/
+.cards_container {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  flex: 1 1 150px;
+  /*  Stretching: */
+  flex: 0 1 150px;
+  /*  No stretching: */
+  margin-left: auto;
+  margin-right: auto;
+}
+.item img {
+  width: 400px;
+  height: 400px;
+}
+
+.links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.links li {
+  display: inline-block;
+  padding: 15px 15px;
+}
+
+/*# sourceMappingURL=solarsystemsightseeing.css.map */
