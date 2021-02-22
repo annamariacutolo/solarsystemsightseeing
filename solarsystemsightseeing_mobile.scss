@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.content {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+@font-face {
+    font-family: spacegalaxy;
+    src: url(Space_Galaxy.ttf);
+}
+
+.nav {
+    background-color: #1c1657;
+    color: white;
+    align-items: center;
+}
+
+.title {
+    font-family: spacegalaxy;
+    font-size: 30px;
+    text-align: left;
+    display: inline-block;
+    padding: 15px 15px;
+}
+
+#dropdownMenuButton1 {
+    background-color: transparent;
+}
+
+
+// .solarsystem {
+//     display: block;
+//     margin-top: 20px;
+//     margin-left: auto;
+//     margin-right: auto;
+// }
+// button
+
+.container {
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 100vmax;
+}
+
+.container img {
+    display: center;
+    width: 100%;
+    height: auto;
+}
+
+.container .imgbutton {
+    position: absolute;
+    top: 90%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 12px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container .btn:hover {
+    background-color: black;
+}
+
+.parent {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+/* flexbox for the cards*/
+
+.cards_container {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    flex: 1 1 150px;
+    /*  Stretching: */
+    flex: 0 1 150px;
+    /*  No stretching: */
+    margin-left: auto;
+    margin-right: auto;
+    img {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+.links {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    li {
+        display: inline-block;
+        padding: 15px 15px;
+    }
+}
+
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    background-color: #f1f1f1a6;
+    text-align: center;
+    padding: 10px;
+  }
+

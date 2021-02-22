@@ -19,33 +19,24 @@ body {
   src: url(Space_Galaxy.ttf);
 }
 
+.nav {
+  background-color: #1c1657;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .title {
   font-family: spacegalaxy;
-  font-size: 90px;
-  text-align: center;
-}
-
-.nav {
-  text-align: center;
-  color: white;
-  background-color: #1c1657;
-}
-
-.nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  text-align: right;
-}
-
-.nav li {
+  font-size: 30px;
+  text-align: left;
   display: inline-block;
   padding: 15px 15px;
 }
 
-.nav li:hover {
-  background-color: #4e44a7;
+#dropdownMenuButton1 {
+  background-color: transparent;
 }
 
 .container {
@@ -132,4 +123,16 @@ body {
   display: inline-block;
   padding: 15px 15px;
 }
-/*# sourceMappingURL=solarsystemsightseeing.css.map */
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  background-color: #f1f1f1a6;
+  text-align: center;
+  padding: 10px;
+}
+/*# sourceMappingURL=solarsystemsightseeing_mobile.css.map */
